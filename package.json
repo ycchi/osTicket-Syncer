@@ -1,0 +1,16 @@
+{
+  "name": "osticket-scrapper",
+  "version": "1.0.0",
+  "description": "OS Ticket System scrapper",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "ychi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "puppeteer": "^5.2.1"
+  }
+}
