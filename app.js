@@ -38,7 +38,7 @@ const runner = async () => {
     await page.click('a[class="load-search"]');
     await page.waitForSelector('dt[class="saved-search active"]');
 
-    await page.click('dd > span > button')
+    await page.click('dd span button')
     await page.click('button[id="do_search"]')
 
 }
